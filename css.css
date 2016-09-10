@@ -1,0 +1,19 @@
+.img{
+	    border: 3px groove green;
+		
+}
+
+}
+.bg{
+	padding: 10px;
+	border: 2px dashed blue;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td {
+	width:100px;
+    border: 1px solid black;
+}
