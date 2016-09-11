@@ -1,37 +1,39 @@
 <!doctype html>
 <html>
 <head>
+<!--Шистун-->
 <title>html</title>
 
-
-
-<link href="css00.css" rel="stylesheet">
+<link href="D:\projects\Leson 1\css.css" rel="stylesheet">
 
 <meta charset="utf-8">
 
 </head>
 
 <body>
-<script src="D:\project\p00\WW.js"></script>
+<script src="D:\projects\Leson 1\js.js"></script>
+
 <div class="bg">
+
 <h1>Изучение html</h1>
 <h2>Заголовок 2</h2>
 <h3>Заголовок 3</h3>
-<p>Абзац — отрезок письменной речи, состоящий из нескольких предложений.</p>
+        <p>Абзац — отрезок письменной речи, состоящий из нескольких предложений.</p>
         <p>Абзац служит для группировки однородных единиц изложения.</p>
         <p>Выделение фразы в особый абзац усиливает падающий на неё смысловой акцент.</p>
         <p>Для выделения абзаца его обычно печатают с красной строки или делают абзацный отступ.</p>
-     Вот такие они, абзацы.
+               Вот такие они, абзацы.
+	 
 	 </div>
 	 
 		<br></br>
 		
-		<img  width="190" height="190" src="D:\project\p00\img\img00.jpg"class="img">
-		<img width="190" height="190" src="D:\project\p00\img\img01.jpg"class="img">
-		<img  width="190" height="190" src="D:\project\p00\img\img02.jpg"class="img">
-		<img  width="190" height="190" src="D:\project\p00\img\img03.jpg"class="img">
-		<img  width="190" height="190" src="D:\project\p00\img\img04.jpg"class="img">
-		<img  width="190" height="190" src="D:\project\p00\img\img05.jpg"class="img">
+		<img  width="190" height="190" src="D:\projects\Leson 1\img\img00.jpg"class="img">
+		<img width="190" height="190" src="D:\projects\Leson 1\img\img01.jpg"class="img">
+		<img  width="190" height="190" src="D:\projects\Leson 1\img\img02.jpg"class="img">
+		<img  width="190" height="190" src="D:\projects\Leson 1\img\img03.jpg"class="img">
+		<img  width="190" height="190" src="D:\projects\Leson 1\img\img04.jpg"class="img">
+		<img  width="190" height="190" src="D:\projects\Leson 1\img\img05.jpg"class="img">
 		
 		<br></br>
 		
@@ -41,33 +43,43 @@
 		<fieldset>
 		<legend>Информация</legend>
 		<label for="name" >Имя</label>
-		<p><input type="text" name="name" id="name"></p>
-		<label for="data">Дата рождения</label>
-		<p><input type="text" name="data" id="data"></p>
-		<p><input type="submit" value="Отправить"  onclick="e();"></p>
-		<!--<p><textarea rows="10" readonly ></textarea></p> -->
+		<p><input type="text" name="name" id="name" placeholder="Алексей"></p>
+		<label for="data">День рождения</label>
+		<p><input type="number" name="data" id="day"placeholder="20"></p>
+		<p><label for="month">Месяц рождения</label></p>
+		<p><input tupe="number" id="month"placeholder="5"></p>
+		<p><label for="year">Год рождения</label></p>
+		<p><input type="number" id="year"placeholder="1994"></p>
+		<p><input type="submit" value="Отправить"  onclick="e(); return false;"></p>
 		<table>
 		  <tr>
 		   <td>Имя:</td>
-		   <td id="aa"></td>
+		   <td id="t1"></td>
 		  </tr>
 		  <tr>
 		   <td>Возраст:</td>
-		   <td></td>
+		   <td id="t2"></td>
 		  </tr>
 		  <tr>
 		   <td>Месяцев:</td>
-		   <td></td>
+		   <td id="t3"></td>
 		  </tr>
 		  <tr>
 		   <td>Недель:</td>
-		   <td></td>
+		   <td id="t4"></td>
 		  </tr>
 		  <tr>
 		   <td>Дней:</td>
-		   <td></td>
+		   <td id="t5"></td>
 		  </tr>
-		  
+		  <tr>
+		  <td>Часов:</td>
+		  <td id="t6"></td>
+		  </tr>
+		  <tr>
+		  <td>Минут:</td>
+		  <td id="t7"></td>
+		  </tr>		  
 		</table>
 		</form>
 		

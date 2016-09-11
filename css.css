@@ -2,11 +2,13 @@
 	    border: 3px groove green;
 		
 }
-
+html{
+	background: #556B2F;
 }
+
 .bg{
-	padding: 10px;
-	border: 2px dashed blue;
+	border: 2px solid blue;
+	padding: 10px;	
 }
 
 table {
