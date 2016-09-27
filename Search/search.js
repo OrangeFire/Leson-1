@@ -21,7 +21,8 @@ function newSearch(){
     "with desktop publishing software like " +
     "Aldus PageMaker including versions of Lorem Ipsum";
 var newArray = newString.split(" ");
-    
+ 
+console.log(typeof newArray) ;
             end.innerText = '';
     
   for(var i=0;i<newArray.length;i++){
